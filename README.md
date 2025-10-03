@@ -107,18 +107,18 @@ Switch to correct account first:
 gh auth switch
 ```
 
-Clone:
+Clone: (Acquire the links from the GitHub Repository )
 
 ```bash
-gh repo clone 612teres/event
+gh repo clone Ms-Irungu/Pata-Places
 cd event
 ```
 
 Or via HTTPS:
 
 ```bash
-git clone https://github.com/612teres/event.git
-cd event
+git clone https://github.com/Ms-Irungu/Pata-Places.git
+cd Pata-Places
 ```
 
 ---
