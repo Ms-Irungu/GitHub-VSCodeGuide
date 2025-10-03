@@ -19,7 +19,7 @@ Before starting, ensure you have:
 
 ### Windows
 
-1. Go to [GitHub CLI Releases](https://github.com/cli/cli/releases)
+1. Go to [https://cli.github.com/](https://cli.github.com/)
 2. Download the latest `.msi` installer
 3. Run installer → it adds `gh` to PATH
 4. Verify:
@@ -242,7 +242,7 @@ If `code .` doesn’t work:
 ## 🛠 Troubleshooting
 
 * **`gh not recognized`** → Restart VS Code, check PATH
-* **`repo not found`** → Accept invitation here: [https://github.com/settings/repository-invitations](https://github.com/settings/repository-invitations)
+* **`repo not found`** → Accept invitation if invited to a private repository.
 * **Wrong commits under wrong account** → Fix with `git config user.email`
 * **Auth failed** → Run `gh auth switch` and retry
 
