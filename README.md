@@ -130,6 +130,8 @@ There are two levels:
 
 ### Global Default (fallback)
 
+🔹 This is your personal identity and is used everywhere unless overridden.
+
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "personal@email.com"
@@ -157,6 +159,20 @@ Check:
 git config user.name
 git config user.email
 ```
+
+#### 🧠 How Git Decides (Global vs Local)
+
+- Git always checks local repo config first (.git/config)
+
+- If none is set → it falls back to global config (~/.gitconfig)
+
+- If none is set globally → it uses system defaults
+
+#### ✅ Best practice:
+
+- Use `global config` for `personal account (set once)`.
+
+- Use `local overrides` only for `work/company repos`.
 
 ---
 
