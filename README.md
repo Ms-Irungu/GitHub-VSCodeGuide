@@ -1,4 +1,4 @@
-````markdown
+````
 # 🚀 GitHub + VS Code Setup Guide (with GitHub CLI)
 
 This guide will walk you through the **entire process** of setting up GitHub CLI (`gh`), connecting **multiple GitHub accounts** (personal + company), cloning repositories, configuring authorship, and working in **Visual Studio Code**.
@@ -11,11 +11,11 @@ Before starting, ensure you have:
 - **Git** installed → check with:
   ```bash
   git --version
-````
-
-* A **GitHub account** (personal and/or company)
+  ```
+- A **GitHub account** (personal and/or company)
 
 ---
+````
 
 ## 🔧 Step 1: Install GitHub CLI (`gh`)
 
