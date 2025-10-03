@@ -298,8 +298,3 @@ git push
 🎉 Done! You can now safely work with **both personal & company GitHub accounts** inside VS Code using GitHub CLI.
 
 ```
-
----
-
-Would you like me to also add a **diagram of the workflow** (Accounts ↔ Repo ↔ VS Code) in ASCII/Markdown style so it’s easier to visualize?
-```
